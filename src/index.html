@@ -15,28 +15,30 @@
     <body style="height: 100vh;">
 
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color:transparent; display:flex; justify-content:center; ">
+            <nav style="background-color:transparent; display:flex; justify-content:center; ">
+                <div class="container">
+                    <div class="navbar-container">
 
-                <div class="navbar-container" style="display: block;">
+                        <div class="container" >
+                            <a class="brand-icon" href="index.html">
+                                <img class="img-fluid" src="img/fic-icon-001.svg" alt="" style="height: 20vh; ">
+                            </a>
+                        </div>
 
-                    <div class="container" >
-                        <a class="brand-icon" href="index.html">
-                            <img class="img-fluid" src="img/fic-icon-001.svg" alt="" style="height: 20vh; ">
-                        </a>
-                    </div>
+                        <div class="nav-title" style="text-align: center;">
+                            <h1>Faces in the Crowd</h1>
+                        </div>
 
-                    <div class="nav-title" style="text-align: center;">
-                        <h1>Faces in the Crowd</h1>
-                    </div>
-
-                    <div class="navigation-bar" style="font-size: 1.9vh; display: flex; justify-content: space-evenly;">
-                        <a class="nav-link-item" href="index.html" >Home</a>
-                        <a class="nav-link-item" href="#" >About Us</a>
-                        <a class="nav-link-item" href="#" >Music</a>
-                        <a class="nav-link-item" href="#" >Videos</a>
-                        <a class="nav-link-item" href="#" >Shop</a>
+                        <div class="container navigation-bar" style="font-size: 1.9vh; display: flex; justify-content: space-evenly;">
+                            <a class="nav-link-item" href="index.html" >Home</a>
+                            <a class="nav-link-item" href="#" >About Us</a>
+                            <a class="nav-link-item" href="#" >Music</a>
+                            <a class="nav-link-item" href="#" >Videos</a>
+                            <a class="nav-link-item" href="#" >Shop</a>
+                        </div>
                     </div>
                 </div>
+                
             </nav>
         </header>
 
@@ -45,32 +47,34 @@
         </main>
 
         <footer style="margin-top: 50vh;">
-            <section class="container-fluid" style="background: transparent; ">
+            <section class="container" style="background: transparent; ">
                 <div class="container" style="color: white">
+
                     <div class="container" style="text-align:center;">
                         <h2>Stream Our Music Now &darr;</h2>
                     </div>
+
                     <div class="container blob" style="display: flex; justify-content: center; margin-left: 1vh;">
                         <a class="navbar-brand" href="https://www.spotify.com/">
-                            <img class="img-fluid"  src="img/spotify-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-fluid link-icon"  src="img/spotify-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         <a class="navbar-brand" href="https://www.apple.com/apple-music/">
-                            <img class="img-fluid"  src="img/apple-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-fluid link-icon"  src="img/apple-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         <a class="navbar-brand" href="https://www.youtube.com/">
-                            <img class="img-fluid"  src="img/youtube-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-fluid link-icon"  src="img/youtube-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         <a class="navbar-brand" href="https://tidal.com/">
-                            <img class="img-fluid"  src="img/tidal-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-flui link-icond"  src="img/tidal-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         <a class="navbar-brand" href="https://music.amazon.com/">
-                            <img class="img-fluid"  src="img/amazon-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-fluid link-icon"  src="img/amazon-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         <a class="navbar-brand" href="https://www.soundcloud.com/">
-                            <img class="img-fluid"  src="img/soundcloud-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-fluid link-icon"  src="img/soundcloud-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         <a class="navbar-brand" href="https://play.google.com/music/">
-                            <img class="img-fluid"  src="img/google-play-white.svg" alt="" style="height: 4vh;">
+                            <img class="img-fluid link-icon"  src="img/google-play-white.svg" alt="" style="height: 4vh; width: 2vw">
                         </a>
                         
                     </div>
@@ -100,8 +104,9 @@
                     
                 }
                 .navigation-bar{
-                    width:350px;
+                    width:80vw;
                 }
+                
             
             }
 
@@ -111,7 +116,7 @@
                     background-size:cover; 
                 }
                 .navigation-bar{
-                    width:400px;
+                    width:70vw;
                 }
             
             }
@@ -122,7 +127,7 @@
                     background-size:cover; 
                 }
                 .navigation-bar{
-                    width:400px;
+                    width:50vw;
                 }
             
             }
@@ -133,18 +138,18 @@
                     background-size:cover; 
                 }
                 .navigation-bar{
-                    width:400px;
+                    width:30vw;
                 }
             
             }
 
-            @media(min-width: 1092px){
+            @media(min-width: 1920px){
                 body{
                     background-image: url(../img/Screenshotmod006.webp);
                     background-size:cover; 
                 }
                 .navigation-bar{
-                    width:400px;
+                    width:25vw;
                 }
             
             }
