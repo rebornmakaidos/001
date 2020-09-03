@@ -12,27 +12,27 @@
     <!--                                 -->
 
 
-    <body style="background: url(../img/sunset.jpg); background-size:cover; height:100vh;">
+    <body >
 
         <header >
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color:transparent; display: flex; justify-content: center;">
 
                 <div class="navbar-container" >
-                    <div class="navbar-icon">
-                        <a class="navbar-brand" href="index.html">
-                            <img class="img-fluid" src="img/twisted-oak-iconv8.svg" alt="" style="height: 15vh; margin-left: 0.4vw;">
+                    <div >
+                        <a href="index.html">
+                            <img class="img-fluid" src="img/twisted-oak-iconv8.svg" alt="" style="height: 15vh; margin-left: 0vw;">
                         </a>
                     </div>
 
                     <div class="nav-title" style="text-align: center;">
-                        <h1>About Us</h1>
+                        <h1>Twisted Oak Yoga & Wellness</h1>
                     </div>
 
-                    <div class="navbar-nav" style="display: flex; justify-content: center;">
-                        <a class="nav-item nav-link active" href="index.html">Home</a>
-                        <a class="nav-item nav-link" href="about-us.html">About Us</a>
-                        <a class="nav-item nav-link" href="offerings.html">Offerings</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <div class="navigation" style="width:75vw; display: flex; justify-content: space-evenly;">
+                        <a style="color: lightgrey;" href="index.html">Home</a>
+                        <a style="color: lightgrey;" href="about-us.html">About Us</a>
+                        <a style="color: lightgrey;" href="offerings.html">Offerings</a>
+                        <a style="color: lightgrey;" href="contact.html">Contact</a>
                     </div>
                 </div>
               </nav>
@@ -40,23 +40,34 @@
 
         <main style="background: rgba(105, 165, 227, .65); border-radius: 1vh;">
             <div class="container" style="text-align:center; font-size: 3vh; display: flex; justify-content: center;">
-                <p style="width: 30vw; margin-bottom: 5vh;">Scott and Terri bring a wealth of professional and personal experience to their teaching. </p>
+                <p style="width: 75vw; margin-bottom: 5vh;">Scott and Terri bring a wealth of professional and personal experience to their teaching. </p>
             </div>
 
-            <div class="container" style="display: flex; justify-content: center;">
-                <div class="container" style="width: 15vw;">
-                    <img src="img/scott-profile.jpg" alt="" style="height: 20vh; width: auto; border-radius: 50%; margin-left: 1vw;">
-                    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio alias laborum animi praesentium totam velit consequuntur, eveniet tempo quis?</p>
+            <div class="main-content" style="display: block; justify-content: center;">
+                <div class="container" style="width: 50vw;">
+                    <div style="display:flex; justify-content: center;">
+                        <img src="img/scott-profile.jpg" alt="" style="height: 20vh; width: auto; border-radius: 50%; margin-left: 1vw;">
+                    </div>
+                    <div style="display:flex; justify-content: center; margin-bottom:5vh;">
+                        <p style="text-align: center; width: 30vw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio alias laborum animi praesentium totam velit consequuntur, eveniet tempo quis?</p>
+                    </div>
+                    
+                    
                 </div>
                 
-                <div class="container" style="width: 15vw;">
-                    <img src="img/terri-profile.jpg" alt="" style="height: 20vh; width: auto; border-radius: 50%; margin-left: 1vw;">
-                    <p style="text-align: center;">Terri creates accessible, progressive sequences to challenge the body and mind and support functional movement that will carry us in our daily lives.</p>
+                <div class="container" style="width: 50vw;">
+                    <div style="display:flex; justify-content: center;">
+                        <img src="img/terri-profile.jpg" alt="" style="height: 20vh; width: auto; border-radius: 50%; margin-left: 1vw;">
+                    </div>
+                    <div style="display:flex; justify-content: center;">
+                        <p style="text-align: center; width: 30vw">Terri creates accessible, progressive sequences to challenge the body and mind and support functional movement that will carry us in our daily lives.</p>
+                    </div>
+                    
                 </div>
             </div>
         </main>
 
-        <footer style="margin-top: 10vh;">
+        <footer >
             <section class="container-fluid" style="background: transparent; ">
                 <div class="container" style="color: white;">
                     
@@ -71,7 +82,7 @@
                         
                     </div>
 
-                    <div style="display:flex; justify-content: center; margin: 2rem 2rem 0rem 2rem;">
+                    <div style="display:flex; justify-content: center;">
                         <div style="line-height: 0.5rem;">
                             <p style="color:grey;">&copy; 2020 Twisted Oak Yoga & Wellness</p>
                             <p style="color:grey; margin-left: 4rem;">all rights reserved</p>
@@ -86,6 +97,74 @@
                 </div>
             </section>
         </footer>
+
+        <style>
+            @media(min-width: 300px){
+                .main-content{
+                    display: block;
+                }
+                .navigation{
+                    margin-left: 7vw;
+                }
+                body{
+                    background: #ff9f30;
+                }
+             
+             }
+
+            @media(min-width: 400px){
+                .main-content{
+                    display: block;
+                }
+                .navigation{
+                    margin-left: 7vw;
+                }
+                body{
+                    background: #ff9f30;
+                }
+             
+             }
+ 
+            @media(min-width: 600px){
+                .main-content{
+                    display: flex;
+                }
+                body{
+                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                }
+             
+             }
+ 
+             @media(min-width: 720px){
+                .main-content{
+                    display: flex;
+                }
+                body{
+                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                }
+             
+             }
+ 
+             @media(min-width: 1080px){
+                .main-content{
+                    display: flex;
+                }
+                body{
+                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                }
+             
+             }
+ 
+             @media(min-width: 1092px){
+                body{
+                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                 }
+
+             
+             }
+ 
+ 
+        </style>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
