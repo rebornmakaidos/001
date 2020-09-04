@@ -38,29 +38,35 @@
               </nav>
         </header>
 
-        <main style="background: rgba(105, 165, 227, .65); border-radius: 1vh;">
-            <div class="container" style="text-align:center; font-size: 3vh; display: flex; justify-content: center;">
+        <main style=" border-radius: 1vh;">
+            <div style="text-align:center; font-size: 3vh; display: flex; justify-content: center;">
                 <p style="width: 75vw; margin-bottom: 5vh;">Scott and Terri bring a wealth of professional and personal experience to their teaching. </p>
             </div>
 
-            <div class="main-content" style="display: block; justify-content: center;">
-                <div class="container" style="width: 50vw;">
+            <div class="main-content" style="justify-content: center;">
+                <div class="profile-box" >
+                    <div style="text-align:center; font-size: 3vh; display: flex; justify-content: center;">
+                        <p style="margin-bottom: 2vh;">Scott:</p>
+                    </div>
                     <div style="display:flex; justify-content: center;">
                         <img src="img/scott-profile.jpg" alt="" style="height: 20vh; width: auto; border-radius: 50%; margin-left: 1vw;">
                     </div>
                     <div style="display:flex; justify-content: center; margin-bottom:5vh;">
-                        <p style="text-align: center; width: 30vw">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio alias laborum animi praesentium totam velit consequuntur, eveniet tempo quis?</p>
+                        <p style="text-align: center;">200 hr certified hatha yoga teacher and breath coachWith 25+ years of law enforcement experience, Scott brings a unique perspective to using yogictools such as pranayama, asana and cold exposure in supporting those dealing with posttrauma stress and trauma. Additional training in trauma sensitive yoga and breath work.</p>
                     </div>
                     
                     
                 </div>
                 
-                <div class="container" style="width: 50vw;">
+                <div class="profile-box" >
+                    <div style="text-align:center; font-size: 3vh; display: flex; justify-content: center;">
+                        <p style="margin-bottom: 2vh;">Terri:</p>
+                    </div>
                     <div style="display:flex; justify-content: center;">
                         <img src="img/terri-profile.jpg" alt="" style="height: 20vh; width: auto; border-radius: 50%; margin-left: 1vw;">
                     </div>
                     <div style="display:flex; justify-content: center;">
-                        <p style="text-align: center; width: 30vw">Terri creates accessible, progressive sequences to challenge the body and mind and support functional movement that will carry us in our daily lives.</p>
+                        <p style="text-align: center;">200 hr certified hatha yoga and movement teacherBSc Occupational TherapyWith 20+ years working in rehabilitation medicine, Terri has a wealth of experience in managingchronic pain and is able to build accessible sequences for seniorsAdditional training in meditation, kids yoga, pain care, yin, restorative, kundalini, alignment, yogadetour informed, mindful strength.</p>
                     </div>
                     
                 </div>
@@ -68,11 +74,11 @@
         </main>
 
         <footer >
-            <section class="container-fluid" style="background: transparent; ">
-                <div class="container" style="color: white;">
+            <section style="background: transparent; ">
+                <div style="color: white;">
                     
 
-                    <div class="container" style="display: flex; justify-content: center; margin-top: 0vh;">
+                    <div style="display: flex; justify-content: center; margin-top: 0vh;">
                         <a class="navbar-brand" href="https://www.facebook.com/">
                             <img class="img-fluid" src="img/facebook-white.svg" alt="" style="height: 2rem;">
                         </a>
@@ -100,6 +106,12 @@
 
         <style>
             @media(min-width: 300px){
+                main{
+                    background: rgba(105, 165, 227, 1);
+                }
+                .profile-box{
+                    width: 75vw;
+                }
                 .main-content{
                     display: block;
                 }
@@ -107,12 +119,18 @@
                     margin-left: 7vw;
                 }
                 body{
-                    background: #ff9f30;
+                    background: url(../img/sunset.jpg); background-size:cover; height:115vh; background-repeat: repeat-y; background-position: center;
                 }
              
              }
 
             @media(min-width: 400px){
+                main{
+                    background: rgba(105, 165, 227, 0.75);
+                }
+                .profile-box{
+                    width: 75vw;
+                }
                 .main-content{
                     display: block;
                 }
@@ -120,44 +138,68 @@
                     margin-left: 7vw;
                 }
                 body{
-                    background: #ff9f30;
+                    background: url(../img/sunset.jpg); background-size:cover; height:160vh; background-repeat: repeat-y; background-position: center;
                 }
              
              }
  
             @media(min-width: 600px){
+                main{
+                    background: rgba(105, 165, 227, 0.75);
+                }
+                .profile-box{
+                    width: 40vw;
+                }
                 .main-content{
                     display: flex;
                 }
                 body{
-                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                    background: url(../img/sunset.jpg); background-size:cover; height:150vh; background-repeat: repeat-y; background-position: center;
                 }
              
              }
  
              @media(min-width: 720px){
+                main{
+                    background: rgba(105, 165, 227, 0.65);
+                }
+                .profile-box{
+                    width: 40vw;
+                }
                 .main-content{
                     display: flex;
                 }
                 body{
-                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                    background: url(../img/sunset.jpg); background-size:cover; height:115vh; background-repeat: repeat-y; background-position: center;
                 }
              
              }
  
              @media(min-width: 1080px){
+                main{
+                    background: rgba(105, 165, 227, 0.65);
+                }
+                .profile-box{
+                    width: 40vw;
+                }
                 .main-content{
                     display: flex;
                 }
                 body{
-                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                    background: url(../img/sunset.jpg); background-size:cover; height:115vh; background-repeat: repeat-y; background-position: center;
                 }
              
              }
  
              @media(min-width: 1092px){
+                main{
+                    background: rgba(105, 165, 227, 0.65);
+                }
+                .profile-box{
+                    width: 30vw;
+                }
                 body{
-                    background: url(../img/sunset.jpg); background-size:cover; height:100vh; background-repeat: repeat-y;
+                    background: url(../img/sunset.jpg); background-size:cover; height:115vh; background-repeat: repeat-y; background-position: center;
                  }
 
              
